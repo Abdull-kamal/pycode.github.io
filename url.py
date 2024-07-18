@@ -15,7 +15,7 @@ def qrcodegenerator(url, filename):
     img.save(filename)
 
 
-url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-file_name = "random"
+url = input("Enter the url you want to convert :")
+file_name = input("Enter the name you want for your qr code :")
 qrcodegenerator(url, file_name)
 print(f"generated:{file_name} qr code!")
